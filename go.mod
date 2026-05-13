@@ -5,8 +5,8 @@ go 1.25.0
 require (
 	github.com/aws/aws-sdk-go-v2 v1.41.6
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.100.0
-	github.com/kamalyes/go-logger v0.4.6-0.20260320160038-f1cdda12311b
-	github.com/kamalyes/go-toolbox v0.11.88-0.20260422051535-9c51526b8753
+	github.com/kamalyes/go-logger v0.4.6
+	github.com/kamalyes/go-toolbox v0.12.0
 	github.com/minio/minio-go/v7 v7.0.100
 )
 
@@ -42,3 +42,8 @@ require (
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+// 本地开发替换
+// replace github.com/kamalyes/go-toolbox => ../go-toolbox
+
+// replace github.com/kamalyes/go-logger => ../go-logger
