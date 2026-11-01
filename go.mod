@@ -6,7 +6,7 @@ require (
 	github.com/aws/aws-sdk-go-v2 v1.41.6
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.100.0
 	github.com/kamalyes/go-logger v0.8.0
-	github.com/kamalyes/go-toolbox v0.18.1
+	github.com/kamalyes/go-toolbox v0.19.0
 	github.com/minio/minio-go/v7 v7.0.100
 )
 
